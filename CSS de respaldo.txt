@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.Fernanflo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    top: 50%;
+    left: 40%;
+    position: fixed;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    animation: cambiaColorBorde 3s infinite; /* Aplica la animación al borde del botón */
+}
+.porta {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    top: 50%;
+    left: 60%;
+    position: fixed;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+    animation: cambiaColorBorde 3s infinite; /* Aplica la animación al borde del botón */
+}
+@keyframes cambiaColorBorde {
+    0% { border: 2px solid rgb(255, 0, 0); } /* Rojo al inicio */
+    10% { border: 2px solid rgb(255, 165, 0); } /* Naranja después del 10% de la animación */
+    20% { border: 2px solid rgb(255, 255, 0); } /* Amarillo después del 20% de la animación */
+    30% { border: 2px solid rgb(0, 128, 0); } /* Verde después del 30% de la animación */
+    40% { border: 2px solid rgb(0, 0, 255); } /* Azul después del 40% de la animación */
+    50% { border: 2px solid rgb(75, 0, 130); } /* Índigo después del 50% de la animación */
+    60% { border: 2px solid rgb(238, 130, 238); } /* Violeta después del 60% de la animación */
+    70% { border: 2px solid rgb(128, 0, 0); } /* Marrón después del 70% de la animación */
+    80% { border: 2px solid rgb(0, 255, 255); } /* Cian después del 80% de la animación */
+    90% { border: 2px solid rgb(255, 255, 255); } /* Blanco después del 90% de la animación */
+    100% { border: 2px solid rgb(255, 0, 0); } /* Rojo al final */    
+}
+
+.textodeexplicacion {
+    color: white;
+    position: fixed;
+    top: 45%;
+    left: 44%;
+    font-weight: bold;
+    font-size: 30px;
+    animation: cambiaColorTexto 3s infinite; /* Aplica la animación al color del texto */
+}
+
+@keyframes cambiaColorTexto {
+    0% { color: red; } /* Rojo al inicio */
+    10% { color: orange; } /* Naranja después del 10% de la animación */
+    20% { color: yellow; } /* Amarillo después del 20% de la animación */
+    30% { color: green; } /* Verde después del 30% de la animación */
+    40% { color: blue; } /* Azul después del 40% de la animación */
+    50% { color: indigo; } /* Índigo después del 50% de la animación */
+    60% { color: violet; } /* Violeta después del 60% de la animación */
+    70% { color: brown; } /* Marrón después del 70% de la animación */
+    80% { color: cyan; } /* Cian después del 80% de la animación */
+    90% { color: white; } /* Blanco después del 90% de la animación */
+    100% { color: red; } /* Rojo al final */    
+}
+/*me gustaria declararteme pero solo te puedo declarar clases yaretzi*/                          
